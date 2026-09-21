@@ -1,0 +1,12 @@
+# Program to input eight numbers from the user and display all the unique numbers (once)
+
+l = set()
+l.add(int(input("Enter number : ")))
+l.add(int(input("Enter number : ")))
+l.add(int(input("Enter number : ")))
+l.add(int(input("Enter number : ")))
+l.add(int(input("Enter number : ")))
+l.add(int(input("Enter number : ")))
+l.add(int(input("Enter number : ")))
+l.add(int(input("Enter number : ")))
+print(l)
