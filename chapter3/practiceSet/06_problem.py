@@ -1,4 +1,4 @@
-# check palindrome
+# check permutation of two strings
 from collections import Counter
 def ispermutation(str1, str2):
     return Counter(str1) == Counter(str2)
