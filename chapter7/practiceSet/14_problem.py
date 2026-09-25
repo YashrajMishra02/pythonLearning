@@ -21,7 +21,6 @@ while(i < n):
             i += 1
     elif(prev>current): # decreasing
         if(isDec == False): # if decresing check if previous it was incerasing or not?
-            count += 2
             i += 1
         else:
             prev = current
