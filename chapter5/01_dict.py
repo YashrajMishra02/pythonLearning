@@ -23,7 +23,7 @@ print(marks["harry"]) # printing the value of a specific key in dictonary using 
 
 print(marks.items()) # printing all key-value pairs in the dictionary
 
-print(marks.keys())
+print(marks.keys()) # printing all keys in the dictionary
 
 marks.update({"friend":99.7}) # Adding a new key-value pair to the dictionary
 
