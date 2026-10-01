@@ -1,4 +1,4 @@
-# Program to print the pattern
+# Program to print Palindrome Triangular pattern
 '''
 
       1
