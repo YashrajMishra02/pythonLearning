@@ -1,0 +1,10 @@
+
+# DEBUG: Detialed information, typically of interest only when diagnosing problems.
+
+# INFO: Confirmation that things are working as expected.
+
+# WARNING: An indication that something unexpected happend, or indicative of some problem in the near future (e.e. 'disk space low). The software is still working as expected.
+
+# ERROR: Due to a more serious proble, the software has not been able to perform some function.
+
+# CRITICAL: A serious error, indicating that the program itself may be unable to continue running.
