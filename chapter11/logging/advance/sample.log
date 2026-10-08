@@ -1,0 +1,21 @@
+2026-09-30 10:34:30,539:ERROR:Tried to divide by zero 
+2026-09-30 10:34:30,539:ERROR:Tried to divide by zero 
+Traceback (most recent call last):
+  File "d:\pythonLearning\chapter11\logging\advance\log-sample.py", line 50, in divide
+    result = x/y
+             ~^~
+ZeroDivisionError: division by zero
+2026-09-30 10:40:11,608:ERROR:Tried to divide by zero 
+2026-09-30 10:40:11,608:ERROR:Tried to divide by zero 
+Traceback (most recent call last):
+  File "d:\pythonLearning\chapter11\logging\advance\log-sample.py", line 55, in divide
+    result = x/y
+             ~^~
+ZeroDivisionError: division by zero
+2026-09-30 10:41:41,964:ERROR:Tried to divide by zero 
+2026-09-30 10:41:41,964:ERROR:Tried to divide by zero 
+Traceback (most recent call last):
+  File "d:\pythonLearning\chapter11\logging\advance\log-sample.py", line 56, in divide
+    result = x/y
+             ~^~
+ZeroDivisionError: division by zero
