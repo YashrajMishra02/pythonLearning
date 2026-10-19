@@ -1,39 +1,44 @@
+
 # create a empty dectionary
+
 d = {}
-# print(type(d))
+
+print(type(d))
+
 marks = {
     "john":100,
     "harry":99,
     "deepak":98
 }
 
+print(marks)
+
 marks['panda'] = 98.2 #adding key:value pair in dictonary 
 
 marks['harry'] = 89.09 # Updation of value in dictonary
 
-print(marks.get('chini','Not found'))  # Retrive the value of a specific key from a dictonary using get() method. If the key is not found, it returns 'Not found' with its 2nd argument.
-
-marks.update({'harry':55,'deepak':77}) # Updating values of existing keys or adding new key-value pairs to the dictionary using update() method.
-
-print(marks)
-
 print(marks,type(marks))
 
-print(marks["harry"]) # printing the value of a specific key in dictonary using key name.
+# DICT formatting
 
-print(marks.items()) # printing all key-value pairs in the dictionary
+person = {'name': 'Jenn', 'age': 23}
 
-print(marks.keys()) # printing all keys in the dictionary
+sentence = 'My name is ' + person['name'] + 'and its marks ' + person['age']
 
-marks.update({"friend":99.7}) # Adding a new key-value pair to the dictionary
+sentence = 'My name is {} and I am {} years old'.format(person['name'],person['age'])
 
-print(marks)
+sentence = 'My name is {0} and I am {1} years old'.format(person['name'],person['age'])
 
-print(marks.get("deepak")) # Retrieving the value of a specific key from the dictionary using get() method.
+print(sentence)
 
-            # string        integers            List
-student = {'name':'John', 'age': 25, 'courses':['Maths','CompSci']}
+tag = 'h1'
+text = 'This is a headline'
 
-print(student['age'])
+sentence = '<{0}>{1}</{0}>'.format(tag,text)
+print(sentence)
 
-print(type(student['courses']))
+
+sentence = 'My name is {0[name]} and I am {1[age]} years old'.format(person,person)
+
+sentence = 'My name is {0[name]} and I am {0[age]} years old'.format(person)
+print(sentence)
