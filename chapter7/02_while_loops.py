@@ -10,7 +10,7 @@ while(i<=50):
     i+=1
 
 # write a program to print the content of a list using while loop
-l = [1,2,3,445,"hi","namaste", 334.54,"jai","shree","ram","jai","bajaran","bali",8693873399,"etc"]
+l = [1,2,3,445,"hi","namaste", 334.54,"jai","shree","ram","jai","bajaran","bali",8695473399,"etc"]
 i = 0
 while(i<len(l)):
     print(l[i])
