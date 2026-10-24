@@ -29,7 +29,7 @@ emp_2 = Employee('cherry','ram',90000)
 
 print(Employee.num_of_emps)
 print(emp_1.pay)
-print(emp_1.apply_raise())
+emp_1.apply_raise()
 print(emp_1.pay)
 
 # Accessing the class variable through instance variable, class 
