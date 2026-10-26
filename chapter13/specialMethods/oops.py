@@ -29,7 +29,8 @@ class Employee:
 emp_1  = Employee('harry','raj',50000)
 emp_2 = Employee('cherry','ram',90000)
 
-print(emp_1)
+print(emp_1) # printing directly cause it to print vauge values unable to understand
+
 print(repr(emp_1))
 print(str(emp_1))
 
