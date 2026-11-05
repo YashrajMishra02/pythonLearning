@@ -41,6 +41,9 @@ Employee.set_raise_amt(1.05)
 emp_1.set_raise_amt(1.05) # This will also work but it is not recommended to use class method with instance
 
 print(Employee.raise_amount)
+print(Employee.__dict__)
 print(emp_1.raise_amount)
+print(emp_1.__dict__)
 print(emp_2.raise_amount)
+print(emp_2.__dict__)
 
